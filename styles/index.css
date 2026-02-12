@@ -130,6 +130,10 @@ footer p a {
 
 /* TABLET */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .header-title h2 {
+    font-size: 2rem;
+  }
+
   main {
     display: grid;
 
@@ -165,6 +169,10 @@ footer p a {
 }
 
 @media (min-width: 1024px) {
+  .header-title h2 {
+    font-size: 2.25rem;
+  }
+
   main {
     display: grid;
 
