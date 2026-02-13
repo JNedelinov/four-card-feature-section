@@ -55,11 +55,15 @@ header {
   color: var(--neutral-grey-500);
 }
 
-.header-title h2:nth-child(1) {
+.header-title h1 {
+    font-size: 1.5rem;
+  }
+
+.header-title h1:nth-child(1) {
   font-weight: 200;
 }
 
-.header-title h2:nth-child(2) {
+.header-title h1:nth-child(2) {
   font-weight: 600;
 }
 
@@ -130,7 +134,7 @@ footer p a {
 
 /* TABLET */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .header-title h2 {
+  .header-title h1 {
     font-size: 2rem;
   }
 
@@ -169,7 +173,7 @@ footer p a {
 }
 
 @media (min-width: 1024px) {
-  .header-title h2 {
+  .header-title h1 {
     font-size: 2.25rem;
   }
 
