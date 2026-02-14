@@ -56,8 +56,8 @@ header {
 }
 
 .header-title h1 {
-    font-size: 1.5rem;
-  }
+  font-size: 1.5rem;
+}
 
 .header-title h1:nth-child(1) {
   font-weight: 200;
@@ -78,6 +78,8 @@ main {
   grid-template-columns: 1fr;
 
   gap: 2rem;
+
+  color: var(--neutral-grey-400);
 }
 
 footer {
@@ -123,6 +125,14 @@ footer p a {
 
 .card:nth-child(4) {
   border-top: 0.25rem solid var(--primary-blue);
+}
+
+.card .title {
+  font-weight: 600;
+}
+
+.card .description {
+  font-weight: 200;
 }
 
 .icon-wrapper {
