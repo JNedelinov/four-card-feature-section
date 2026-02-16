@@ -111,19 +111,19 @@ footer p a {
   box-shadow: 0 0.625rem 1.563rem -0.625rem var(--neutral-grey-400);
 }
 
-.card:nth-child(1) {
+.card.card-supervisor {
   border-top: 0.25rem solid var(--primary-cyan);
 }
 
-.card:nth-child(2) {
+.card.card-teambuilder {
   border-top: 0.25rem solid var(--primary-red);
 }
 
-.card:nth-child(3) {
+.card.card-karma {
   border-top: 0.25rem solid var(--primary-orange);
 }
 
-.card:nth-child(4) {
+.card.card-calculator {
   border-top: 0.25rem solid var(--primary-blue);
 }
 
@@ -165,19 +165,19 @@ footer p a {
     justify-self: center;
   }
 
-  .card:nth-child(1) {
+  .card.card-supervisor {
     grid-area: supervisor;
   }
 
-  .card:nth-child(2) {
+  .card.card-teambuilder {
     grid-area: teambuilder;
   }
 
-  .card:nth-child(3) {
+  .card.card-karma {
     grid-area: calculator;
   }
 
-  .card:nth-child(4) {
+  .card.card-calculator {
     grid-area: karma;
   }
 }
@@ -207,7 +207,7 @@ footer p a {
     justify-self: auto;
   }
 
-  .card:nth-child(1) {
+  .card.card-supervisor {
     grid-area: supervisor;
 
     /* *desktop w/o "grid-area" property */
@@ -216,15 +216,15 @@ footer p a {
     align-self: center; */
   }
 
-  .card:nth-child(2) {
+  .card.card-teambuilder {
     grid-area: teambuilder;
   }
 
-  .card:nth-child(3) {
+  .card.card-karma {
     grid-area: calculator;
   }
 
-  .card:nth-child(4) {
+  .card.card-calculator {
     grid-area: karma;
 
     /* *desktop w/o "grid-area" property */
